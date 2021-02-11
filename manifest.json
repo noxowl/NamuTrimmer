@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "NamuTrimmer",
+  "version": "0.1",
+  "description": "Page Trimmer for namu.wiki",
+  "author": "Mirai Kim(Suyeong Rhie)",
+  "homepage_url": "https://github.com/noxowl/NamuTrimmer",
+  "permissions": [
+    "*://namu.wiki/*"
+  ],
+  "content_scripts": [{
+    "matches": ["*://namu.wiki/*"],
+    "js": ["namutrimmer.js"]
+  }]
+}
