@@ -1,4 +1,5 @@
 # NamuTrimmer
+https://addons.mozilla.org/ko/firefox/addon/namutrimmer/
 
 [밤 늦게까지 힘들게 일하고](#야근) 인터넷 서핑을 하다보면 튀어나오는 취소선<del>깔깔유모아</del> 개그와 [자기들](#위키니트)만 아는 [유머](#성우%20개그)에 [심한 말](#천하의%20개쌍놈들)이 나와 만들었습니다.
 
