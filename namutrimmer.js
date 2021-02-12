@@ -1,7 +1,7 @@
 /**
  * NamuTrimmer
  * @author Mirai Kim(Suyeong Rhie) <me@euc-kr.net>
- * @version 0.1
+ * @version 0.2
  * @license MIT
  */
 
@@ -41,13 +41,13 @@ function checkExternalLinkAlive() {
 
 function splitRedirect(redirect) {
     let describeTitle = redirect.text
-    let destinationTitle = decodeURI(redirect.href.replace(redirect.origin + "/w/", ""))
+    let destinationTitle = decodeURIComponent(redirect.href.replace(redirect.origin + "/w/", ""))
     return [describeTitle, destinationTitle]
 }
 
 function fetchArticle() {
     let origin = top.document.getElementsByTagName("article").item(0)
-    return origin.children.item(4).children.item(1).children.item(0).children.item(0)
+    return origin.children.item(4).children.item(origin.children.item(4).children.length - 1).children.item(0).children.item(0)
 }
 
 namuTrimmer()
