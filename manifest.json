@@ -12,5 +12,9 @@
   ],
   "background": {
     "scripts": ["background.js"]
-  }
+  },
+  "content_scripts": [{
+    "matches": ["*://*.namu.wiki/*"],
+    "css": ["trimmer.css"]
+  }]
 }

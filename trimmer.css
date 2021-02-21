@@ -1,0 +1,5 @@
+article {
+    word-break: keep-all !important;
+    word-break-cjk: keep-all !important;
+    word-wrap: break-word !important;
+}
