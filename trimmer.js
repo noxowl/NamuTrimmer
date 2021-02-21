@@ -1,7 +1,6 @@
 /**
  * NamuTrimmer
  * @author Mirai Kim(Suyeong Rhie) <me@euc-kr.net>
- * @version 0.2
  * @license MIT
  */
 
