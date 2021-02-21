@@ -5,7 +5,7 @@
  */
 
 function trimmerListener(details) {
-    browser.tabs.executeScript(details.tabId, {file: "namutrimmer.js"}, function(){});
+    browser.tabs.executeScript(details.tabId, {file: "trimmer.js"}, function(){});
 }
 
 browser.webNavigation.onHistoryStateUpdated.addListener(

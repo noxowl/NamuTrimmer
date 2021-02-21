@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-function namuTrimmer() {
+function trimmer() {
     let article = fetchArticle()
     let strikes = article.getElementsByTagName("del")
     let links = article.getElementsByTagName("a")
@@ -50,4 +50,4 @@ function fetchArticle() {
     return origin.children.item(4).children.item(origin.children.item(4).children.length - 1).children.item(0).children.item(0)
 }
 
-namuTrimmer()
+trimmer()
